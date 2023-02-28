@@ -1,0 +1,774 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background: #39394d;
+    padding: 1.1%;
+}
+li{
+    display: inline-block;
+    margin-left: 11px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.fa-solid{
+    color: rgb(255, 208, 0);
+}
+.ar{
+    color: white;
+    margin-left: 8px;
+}
+li a:hover{
+    color:rgb(255, 208, 0) ;
+}
+.active{
+    color:rgb(255, 208, 0) ;
+}
+.list{
+    margin-left: -19%;
+}
+.fa-brands:hover{
+            color: rgb(255, 208, 0);
+}
+.intro{
+    background: #39394d;
+    padding: 8% 15% 0% 16%;
+    display: flex;
+}
+.circle{
+    width: 78%;
+    height: 416px;
+    background-color: #363654;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+}
+.full{
+    width: 55%;
+}
+.i{
+    font-size: 48px;
+}
+.aree{
+    font-size: 41px;
+    font-weight: bold;
+}
+.free{
+    width: 88%;
+    margin-top: 8%;
+}
+.hr{
+    margin-top: 6%;
+    background: rgb(255, 208, 0);
+    border: solid;
+    color: rgb(255, 208, 0);
+    border: 37%;
+    width: 51%;
+    height: 1px;
+}
+.service{
+    font-size: 18px;
+}
+.build{
+    margin-top: 4%;
+}
+.show a{
+        color: rgb(255, 208, 0);
+        text-decoration: none;
+        margin-top: 4%;
+}
+.show{
+    margin-top: 4%;
+}
+.img{
+    margin-left: -33%;
+    display: flex;
+}
+.pic{
+    width: 64%;
+}
+.arrow{
+    font-size: 12px;
+    margin-left: 6%;
+}
+.nicon{
+    margin-left: -3%;
+    margin-top: 2%;
+}
+.google{
+    height: 83px;
+    background: #363654;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: -3%;
+    box-shadow: 2px 3px 16px #000;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.metai{
+    background: #39394d;
+    width: 42%;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding: 5% 7%;
+}
+.last{
+    background: #363654;
+    padding: 8% 15% 0% 16%;
+    display: flex;
+}
+.what{
+    font-size: 57px;
+}
+.fp{
+    width: 67%;
+    margin-top: 5%;
+}
+.wow{
+    width: 52%;
+}
+.prowidth{
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 4%;
+}
+.br{
+    color: rgb(255, 208, 0);
+    font-size: 31px;
+}
+.brs{
+    font-size: 16px;
+}
+.imagedeve{
+    margin-top: 5%;
+}
+.img1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow1 {
+    font-size: 16px;
+    margin-left: 110px;
+}
+.pro1{
+    font-size: 12px;
+}
+.ma{
+    margin-left: -8%;
+}
+li .cir{
+    background-color: #26263c;
+    padding: 30%;
+    border-radius: 50%;
+}
+.box{
+    gap: 1%;
+    background-color: #363654;
+    padding: 8% 15% 0% 16%;
+    display: flex;
+}
+.cross {
+    background-color: #26263c;
+    border-radius: 3%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3%;
+}
+.circ{
+    background-color: #363654;
+    padding: 3%;
+    border-radius: 50%;
+}
+@media (min-width:2561px) and (max-width:2800px){
+    .intro{
+        padding: 8% 3% 0% 16%;
+    }
+    .full{
+    margin-top: -3%;
+    width: 23%;
+    margin-left: 2%;
+    }
+    .circle{
+    width: 40%;
+    height: 621px;
+    background-color: #363654;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+    }
+    .seic{
+        width: 17%;
+    }
+    .metai{
+        padding: 1% 7%;
+    }
+    .google{
+        margin-top: -2%;
+    }
+}
+@media (min-width:1640px) and (max-width:2560px){
+    .intro{
+        padding: 8% 3% 0% 16%;
+    }
+    .full{
+    margin-top: -3%;
+    width: 23%;
+    margin-left: 2%;
+    }
+    .circle{
+    width: 40%;
+    height: 621px;
+    background-color: #363654;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+    }
+    .seic{
+        width: 17%;
+    }
+    .metai{
+        padding: 1% 7%;
+    }
+    .google{
+        margin-top: -2%;
+    }
+}
+@media (min-width:1024px) and (max-width:1360px){
+    .container{
+        width: 141%;
+    }
+    .google{
+        width: 110%;
+    }
+}
+@media (min-width:768px) and (max-width:1023px){
+    .intro{
+       padding:8% 11% 0% 13%;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .list {
+    font-size: 12px;
+    margin-left: -19%;
+    }
+    .fa-brands{
+        font-size: 12px;
+    }
+    .i {
+        font-size: 23px;
+    }
+    .aree {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .free {
+        font-size: 8px;
+        margin-top: 8%;
+    }
+    .circle{
+    height: 252px;
+    background-color: #363654;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+    }
+.seic{
+    font-size: 10px;
+}
+.arrow {
+    font-size: 7px;
+    margin-left: 6%;
+}
+li .cir{
+    font-size: 8px;
+    margin-left: -7px;
+    padding: 4px;
+}
+.google{
+    height: 44px;
+}
+.what {
+    font-size: 17px;
+}
+.fp {
+    width: 100%;
+    margin-top: 5%;
+    font-size: 10px;
+}
+.br {
+    color: rgb(255, 208, 0);
+    font-size: 17px;
+}
+.brs {
+    font-size: 10px;
+}
+.prowidth {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 4%;
+}
+.pro1 {
+    font-size: 8px;
+}
+.last{
+    flex-direction: column;
+}
+.box {
+    gap: 1%;
+    background-color: #363654;
+    padding: 8% 15% 0% 16%;
+    display: flex;
+    flex-direction: column;
+}
+.cross {
+    margin-top: 2%;
+    background-color: #26263c;
+    border-radius: 3%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3%;
+}
+}
+@media (min-width:425px) and (max-width:767px){
+    .nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .list {
+        font-size: 14px;
+        margin: 0%;
+    }
+    .ar{
+        display: none;
+    }
+    .intro {
+        background: #39394d;
+        padding: 8% 15% 0% 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .full{
+        width: 100%;
+    }
+    .circle {
+        order: 1;
+        width: 84%;
+        height: 253px;
+        background-color: #363654;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .google {
+        height: 38px;
+        background: #363654;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: -3%;
+        box-shadow: 2px 3px 16px #000;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .what {
+        font-size: 24px;
+    }
+    .fp {
+        font-size: 10px;
+        margin-top: 5%;
+    }
+    .br {
+        color: rgb(255, 208, 0);
+        font-size: 18px;
+    }
+    .brs {
+        font-size: 5px;
+    }
+    .prowidth {
+        width: 95%;
+        justify-content: space-between;
+        display: flex;
+        margin-top: 4%;
+    }
+    .imagedeve {
+        width: 55%;
+        margin-top: 8%;
+    }
+    .ma{
+        margin-left: -14%;
+    }
+    .ui{
+        font-size: 11px;
+    }
+    .pro1 {
+        font-size: 13px;
+    }
+    .box {
+        gap: 1%;
+        background-color: #363654;
+        padding: 8% 15% 0% 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cross {
+        margin-top: 2%;
+        background-color: #26263c;
+        border-radius: 3%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 3%;
+    }
+}
+@media (min-width:375px) and (max-width:424px){
+    .nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .list {
+        font-size: 14px;
+        margin: 0%;
+    }
+    .ar{
+        display: none;
+    }
+    .intro {
+        background: #39394d;
+        padding: 8% 15% 0% 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .full{
+        width: 100%;
+    }
+    .circle {
+        order: 1;
+        width: 71%;
+        height: 253px;
+        background-color: #363654;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 16%;
+    }
+    .google {
+        height: 38px;
+        background: #363654;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: -3%;
+        box-shadow: 2px 3px 16px #000;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .what {
+        font-size: 24px;
+    }
+    .fp {
+        font-size: 10px;
+        margin-top: 5%;
+    }
+    .br {
+        color: rgb(255, 208, 0);
+        font-size: 18px;
+    }
+    .brs {
+        font-size: 5px;
+    }
+    .prowidth {
+        width: 95%;
+        justify-content: space-between;
+        display: flex;
+        margin-top: 4%;
+    }
+    .imagedeve {
+        width: 55%;
+        margin-top: 8%;
+    }
+    .ma{
+        margin-left: -14%;
+    }
+    .ui{
+        font-size: 11px;
+    }
+    .pro1 {
+        font-size: 13px;
+    }
+    .arrow1 {
+        font-size: 8px;
+        margin-left: 110px;
+    }
+    .i {
+        font-size: 43px;
+    }
+    .aree{
+        font-size: 38px;
+    }
+    .box {
+        gap: 1%;
+        background-color: #363654;
+        padding: 8% 15% 0% 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cross {
+        margin-top: 2%;
+        background-color: #26263c;
+        border-radius: 3%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 3%;
+    }
+}
+@media (min-width:320px) and (max-width:374px){
+.nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .list {
+        font-size: 14px;
+        margin: 0%;
+    }
+    .ar{
+        display: none;
+    }
+    .intro {
+        background: #39394d;
+        padding: 8% 15% 0% 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .full{
+        width: 100%;
+    }
+    .circle {
+        order: 1;
+        width: 71%;
+        height: 253px;
+        background-color: #363654;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 16%;
+    }
+    .google {
+        height: 38px;
+        background: #363654;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: -3%;
+        box-shadow: 2px 3px 16px #000;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .what {
+        font-size: 24px;
+    }
+    .fp {
+        font-size: 10px;
+        margin-top: 5%;
+    }
+    .br {
+        color: rgb(255, 208, 0);
+        font-size: 18px;
+    }
+    .brs {
+        font-size: 5px;
+    }
+    .prowidth {
+        width: 95%;
+        justify-content: space-between;
+        display: flex;
+        margin-top: 4%;
+    }
+    .imagedeve {
+        width: 55%;
+        margin-top: 8%;
+    }
+    .ma{
+        margin-left: -14%;
+    }
+    .ui{
+        font-size: 11px;
+    }
+    .pro1 {
+        font-size: 13px;
+    }
+    .box {
+        gap: 1%;
+        background-color: #363654;
+        padding: 8% 15% 0% 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cross {
+        margin-top: 2%;
+        background-color: #26263c;
+        border-radius: 3%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 3%;
+    }
+}
+@media (min-width:320px) and (max-width:424px){
+    .nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .list {
+        font-size: 11px;
+        margin: 0%;
+    }
+    .ar{
+        display: none;
+    }
+    .intro {
+        background: #39394d;
+        padding: 8% 15% 0% 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .full{
+        width: 100%;
+    }
+    .circle {
+        order: 1;
+        width: 101%;
+        height: 212px;
+        background-color: #363654;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+    .google {
+        height: 38px;
+        background: #363654;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: -6%;
+        box-shadow: 2px 3px 16px #000;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .what {
+        font-size:15px;
+    }
+    .fp {
+        font-size: 10px;
+        margin-top: 5%;
+    }
+    .br {
+        color: rgb(255, 208, 0);
+        font-size: 18px;
+    }
+    .brs {
+        font-size: 5px;
+    }
+    .prowidth {
+        width: 95%;
+        justify-content: space-between;
+        display: flex;
+        margin-top: 4%;
+    }
+    .imagedeve {
+        width: 55%;
+        margin-top: 8%;
+    }
+    .ma{
+        margin-left: -5%;
+    }
+    .ui{
+        font-size: 8px;
+    }
+    .pro1 {
+        font-size: 6px;
+    }
+    .arrow1 {
+        font-size: 8px;
+        margin-left: 110px;
+    }
+    .i {
+        font-size: 30px;
+    }
+    .aree{
+        font-size: 30px;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .icons{
+        font-size: 12px;
+    }
+    .wow{
+        width: 100%;
+    }
+    .box {
+        gap: 1%;
+        background-color: #363654;
+        padding: 8% 15% 0% 16%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cross {
+        margin-top: 2%;
+        background-color: #26263c;
+        border-radius: 3%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 3%;
+    }
+}
+
